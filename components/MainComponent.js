@@ -41,7 +41,8 @@ const DirectoryNavigator = createStackNavigator(
         initialRouteName: 'Directory',
         defaultNavigationOptions: {
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#5637DD',
+                marginTop: -30
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -59,7 +60,8 @@ const HomeNavigator = createStackNavigator(
     {
         defaultNavigationOptions: ({navigation}) => ({
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#5637DD',
+                marginTop: -30
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -83,7 +85,8 @@ const AboutNavigator = createStackNavigator(
     {
         defaultNavigationOptions: ({navigation}) => ({
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#5637DD',
+                marginTop: -30
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -107,7 +110,8 @@ const ContactNavigator = createStackNavigator(
     {
         defaultNavigationOptions: ({navigation}) => ({
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#5637DD',
+                marginTop: -30
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -130,7 +134,8 @@ const ReservationNavigator = createStackNavigator(
     {
         defaultNavigationOptions: ({navigation}) => ({
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#5637DD',
+                marginTop: -30
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
