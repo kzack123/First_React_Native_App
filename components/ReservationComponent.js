@@ -89,7 +89,7 @@ class Reservation extends Component {
                         style={styles.formItem}
                     />
                 )}
-                <View style={styles.formRow}>
+                <View style={{margin: 10}}>
                     <Button
                         onPress={() => this.handleReservation()}
                         title='Search'
@@ -117,7 +117,7 @@ class Reservation extends Component {
                         <Text style={styles.modalText}>
                             Date: {this.state.date.toLocaleDateString('en-US')}
                         </Text>
-                        
+
                         <Button
                             onPress={() => {
                                 this.toggleModal();
@@ -150,7 +150,6 @@ const styles = StyleSheet.create({
     },
     modal: { 
         justifyContent: 'center',
-        
     },
     modalTitle: {
         fontSize: 24,
